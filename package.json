@@ -1,0 +1,33 @@
+{
+  "name": "weather-api",
+  "version": "1.0.0",
+  "description": "single-page-application-javascript-jquery",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/JessicaBarclay/weather-api.git"
+  },
+  "keywords": [
+    "javascript",
+    "jquery",
+    "api",
+    "ajax",
+    "request"
+  ],
+  "author": "Jessica Barclay",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/JessicaBarclay/weather-api/issues"
+  },
+  "homepage": "https://github.com/JessicaBarclay/weather-api#readme",
+  "devDependencies": {
+    "jasmine-core": "^2.6.2",
+    "karma": "^1.7.0",
+    "karma-chrome-launcher": "^2.1.1",
+    "karma-jasmine": "^1.1.0",
+    "karma-phantomjs-launcher": "^1.0.4"
+  }
+}
