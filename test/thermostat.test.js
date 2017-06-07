@@ -52,4 +52,8 @@ describe('Thermostat', function(){
     expect(thermostat.temperature).toEqual(20);
   });
 
+  it('reports the current energy usage as medium', function(){
+    expect(thermostat.usage()).toEqual('Medium usage');
+  });
+
 });
